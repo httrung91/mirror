@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod"
+           fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-13.0" />
 
   <remote  name="twrp"
-           fetch="git://github.com/TeamWin"
+           fetch="https://github.com/TeamWin"
            revision="master" />
 
   <remote  name="omnirom"

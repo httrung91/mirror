@@ -12,6 +12,9 @@
 
   <remote  name="omnirom"
            fetch="https://github.com/omnirom" />
+  
+  <remote  name="genymobile"
+           fetch="https://github.com/Genymobile" />
 
   <remote  name="github"
            fetch=".." />
@@ -36,7 +39,7 @@
   <project name="x86emu" />
   <project name="x86vbox" />
   <project name="device_androVM" />
-  <project name="genymotion-kernel" />
+  <project name="genymotion-kernel" remote="genymobile" />
   <project name="goldfish" />
   <project name="fbtest" />
   <project name="platform_bootable_newinstaller" />
